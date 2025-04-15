@@ -1,7 +1,7 @@
 %YAML 1.1
 ---
 $schema: "http://stsci.edu/schemas/yaml-schema/draft-01"
-id: "http://stsci.edu/schemas/asdf/fits/fits-1.1.0"
+id: "http://stsci.edu/schemas/asdf/fits/fits-1.2.0"
 title: >
   A FITS file inside of an ASDF file.
 description: |
@@ -22,7 +22,7 @@ examples:
     - A simple FITS file with a primary header and two extensions
     - asdf-standard-1.7.0
     - |
-        !fits/fits-1.1.0
+        !fits/fits-1.2.0
             - header:
               - [SIMPLE, true, conforms to FITS standard]
               - [BITPIX, 8, array data type]
