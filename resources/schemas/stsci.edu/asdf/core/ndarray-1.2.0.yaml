@@ -1,4 +1,4 @@
-kYAML 1.1
+%YAML 1.1
 ---
 $schema: "http://stsci.edu/schemas/yaml-schema/draft-01"
 id: "http://stsci.edu/schemas/asdf/core/ndarray-1.2.0"
