@@ -1,7 +1,7 @@
 %YAML 1.1
 ---
 $schema: "http://stsci.edu/schemas/yaml-schema/draft-01"
-id: "http://stsci.edu/schemas/asdf/table/column-1.1.0"
+id: "http://stsci.edu/schemas/asdf/table/column-1.2.0"
 
 title: >
   A column in a table.
@@ -24,7 +24,7 @@ properties:
     description: |
       The array data for the column.
     allOf:
-      - $ref: ../core/ndarray-1.1.0
+      - $ref: ../core/ndarray-1.2.0
 
   description:
     description: |
