@@ -15,7 +15,7 @@ properties:
   name:
     description: |
       The name of the column.  Each name in a
-      [table](http://stsci.edu/schemas/asdf/table/table-1.1.0) must be
+      [table](http://stsci.edu/schemas/asdf/table/table-1.2.0) must be
       unique.
     type: string
     pattern: "[A-Za-z_][A-Za-z0-9_]*"
