@@ -1,7 +1,7 @@
 %YAML 1.1
 ---
 $schema: "http://stsci.edu/schemas/yaml-schema/draft-01"
-id: "http://stsci.edu/schemas/asdf/core/integer-1.1.0"
+id: "http://stsci.edu/schemas/asdf/core/integer-1.2.0"
 title: Arbitrary precision integer value.
 description: |
   Represents an arbitrarily large integer value.
@@ -9,12 +9,12 @@ description: |
 examples:
   -
     - An integer value that is stored using an internal array
-    - asdf-standard-1.6.0
+    - asdf-standard-1.7.0
     - |
-        !core/integer-1.1.0
+        !core/integer-1.2.0
           sign: +
           string: '1193942770599561143856918438330'
-          words: !core/ndarray-1.1.0
+          words: !core/ndarray-1.2.0
             source: 0
             datatype: uint32
             byteorder: little
@@ -22,12 +22,12 @@ examples:
 
   -
     - The same integer value is stored using an inline array
-    - asdf-standard-1.6.0
+    - asdf-standard-1.7.0
     - |
-        !core/integer-1.1.0
+        !core/integer-1.2.0
           sign: +
           string: '1193942770599561143856918438330'
-          words: !core/ndarray-1.1.0
+          words: !core/ndarray-1.2.0
             data: [1103110586, 1590521629, 299257845, 15]
             datatype: uint32
             shape: [4]
@@ -35,7 +35,7 @@ examples:
 type: object
 properties:
   words:
-    $ref: "ndarray-1.1.0"
+    $ref: "ndarray-1.2.0"
     description: |
       An array of unsigned 32-bit words representing the integer value, stored
       as little endian (i.e. the first word of the array represents the least
