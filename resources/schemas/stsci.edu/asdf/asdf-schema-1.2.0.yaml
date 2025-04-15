@@ -1,7 +1,7 @@
 %YAML 1.1
 ---
 $schema: "http://json-schema.org/draft-04/schema"
-id: "http://stsci.edu/schemas/asdf/asdf-schema-1.1.0"
+id: "http://stsci.edu/schemas/asdf/asdf-schema-1.2.0"
 title:
   ASDF Schema
 description: |
