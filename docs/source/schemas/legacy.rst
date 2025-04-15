@@ -9,7 +9,9 @@ The following legacy schemas and not part of the most recent ASDF standard versi
 
    core/asdf-1.0.0
    core/column-1.0.0
+   core/integer-1.1.0
    core/integer-1.0.0
+   core/ndarray-1.1.0
    core/ndarray-1.0.0
    core/subclass_metadata-1.0.0
    core/table-1.0.0
